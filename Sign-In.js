@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Sign-In testing', function(){
+describe('Login-In testing', function(){
     beforeEach(function(){
         cy.visit("https://cms-lyart.vercel.app/login");
         cy.get('#login_email').as('email')
